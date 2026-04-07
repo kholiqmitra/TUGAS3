@@ -1,34 +1,34 @@
 <resources>
-    <string name="app_name">TUGAS3</string>
+    <string name="app_name">Universitas Mataram</string>
 
     <!-- Registration Screen -->
-    <string name="registration_title">Formulir Registrasi</string>
+    <string name="registration_title">Registrasi</string>
     <string name="hint_nama">Nama Lengkap</string>
     <string name="hint_nim">NIM</string>
     <string name="label_program_studi">Program Studi</string>
     <string name="label_jenis_kelamin">Jenis Kelamin</string>
     <string name="label_hobi">Hobi</string>
-    <string name="gender_laki">Laki-laki</string>
-    <string name="gender_perempuan">Perempuan</string>
-    <string name="hobi_olahraga">Olahraga</string>
-    <string name="hobi_musik">Musik</string>
-    <string name="hobi_baca">Membaca</string>
+    <string name="gender_laki">Male</string>
+    <string name="gender_perempuan">Female</string>
+    <string name="hobi_olahraga">Sports</string>
+    <string name="hobi_musik">Music</string>
+    <string name="hobi_baca">Reading</string>
     <string name="hobi_game">Game</string>
     <string name="btn_tampilkan_profil">Tampilkan Profil</string>
 
     <!-- Program Studi Options -->
-    <string name="prodi_informatika">Informatika</string>
-    <string name="prodi_sistem_informasi">Sistem Informasi</string>
-    <string name="prodi_teknik_komputer">Teknik Komputer</string>
-    <string name="prodi_desain_komunikasi_visual">Desain Komunikasi Visual</string>
+    <string name="prodi_informatika">Computer Science</string>
+    <string name="prodi_sistem_informasi">Information Systems</string>
+    <string name="prodi_teknik_komputer">Computer Engineering</string>
+    <string name="prodi_desain_komunikasi_visual">Visual Communication Design</string>
 
     <!-- Profile Screen -->
     <string name="profile_title">Profil Saya</string>
-    <string name="label_info_profil">Informasi Profil</string>
-    <string name="label_nama">Nama</string>
+    <string name="label_info_profil">Personal Information</string>
+    <string name="label_nama">Full Name</string>
     <string name="label_nim">NIM</string>
-    <string name="label_prodi">Program Studi</string>
-    <string name="label_jk">Jenis Kelamin</string>
+    <string name="label_prodi">Program Study</string>
+    <string name="label_jk">Gender</string>
 
     <!-- Error Messages -->
     <string name="error_nama_empty">Nama tidak boleh kosong</string>
@@ -36,4 +36,7 @@
     <string name="error_prodi_empty">Pilih program studi</string>
     <string name="error_jk_empty">Pilih jenis kelamin</string>
     <string name="error_hobi_empty">Pilih minimal satu hobi</string>
+
+    <!-- Quote -->
+    <string name="quote_education">Education is not the filling of a pail, but the lighting of a fire.</string>
 </resources>

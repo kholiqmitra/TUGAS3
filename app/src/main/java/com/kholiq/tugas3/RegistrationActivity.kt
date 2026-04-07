@@ -90,7 +90,7 @@ class RegistrationActivity : AppCompatActivity() {
         }
 
         if (!binding.cbOlahraga.isChecked && !binding.cbMusik.isChecked &&
-            !binding.cbBaca.isChecked && !binding.cbGame.isChecked) {
+            !binding.cbBaca.isChecked) {
             Toast.makeText(this, getString(R.string.error_hobi_empty), Toast.LENGTH_SHORT).show()
             return false
         }
@@ -112,7 +112,6 @@ class RegistrationActivity : AppCompatActivity() {
         if (binding.cbOlahraga.isChecked) hobbies.add(getString(R.string.hobi_olahraga))
         if (binding.cbMusik.isChecked) hobbies.add(getString(R.string.hobi_musik))
         if (binding.cbBaca.isChecked) hobbies.add(getString(R.string.hobi_baca))
-        if (binding.cbGame.isChecked) hobbies.add(getString(R.string.hobi_game))
 
         val hobiString = hobbies.joinToString(", ")
 
